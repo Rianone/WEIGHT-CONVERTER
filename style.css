@@ -1,0 +1,83 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    border: border-box;
+}
+body
+{
+    display: flex;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    align-items: center;
+    justify-self: center;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+form h1
+{
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+form input
+{
+ padding: 1rem; 
+ width: 77%;  
+ border-radius: 10px;
+ border: none;
+ text-align: center;
+ font-size: 1rem;
+ margin-bottom: 1rem;
+ transition: all 0.7s;
+}
+input:hover{
+    opacity: 0.9;
+}
+.box
+{
+  padding: 1rem; 
+  width: 77%;  
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+h3
+{
+    margin-bottom: 0.4rem;
+}
+#grams 
+{
+    background-color: rgba(0, 38, 255, 0.788);
+}
+#kilograms 
+{
+    background-color: rgba(9, 172, 58, 0.788);
+}
+#ounces 
+{
+    background-color: rgba(211, 58, 20, 0.788);
+}
+@media(max-width: 762px)
+{
+    h1
+    {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .box
+{
+  padding: 1rem; 
+  width: 60%;  
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+ }
+}
